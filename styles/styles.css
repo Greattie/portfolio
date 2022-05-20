@@ -58,10 +58,6 @@ a {
   display: flex;
 }
 
-a:active {
-  color: gold;
-}
-
 a:hover {
   color: gold;
 }
@@ -137,41 +133,6 @@ li a {
   -ms-grid-column-align: center;
       justify-self: center;
   height: 500px;
-}
-
-.greet-div {
-  position: relative;
-}
-
-.greet {
-  color: navy;
-  background-color: white;
-  font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-  width: 300px;
-  height: 212px;
-  position: absolute;
-  right: 46.7rem;
-  top: 0.5rem;
-  padding: 10px;
-  z-index: 1;
-}
-
-.greet-a {
-  position: absolute;
-  top: 13.7rem;
-  right: 57rem;
-  z-index: 2;
-  width: 133px;
-  padding: 10px;
-  background-color: navy;
-  text-align: center;
-}
-
-.greet-a a {
-  color: white;
-  background-color: navy;
 }
 
 .sect {
@@ -308,7 +269,7 @@ figure {
   display: -ms-flexbox;
   display: flex;
   height: 55px;
-  width: 200px;
+  width: 20%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -324,6 +285,11 @@ figure {
   color: #25e9d5;
   background-color: #dffadf;
   border-radius: 5%;
+  text-transform: uppercase;
+}
+
+.contact a {
+  width: 100%;
 }
 
 footer {
@@ -347,7 +313,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
   height: 80px;
-  width: 100%;
+  width: 75%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -366,7 +332,7 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 50%;
+  width: 60%;
   height: 50px;
 }
 
@@ -383,7 +349,10 @@ footer {
   gap: 20px;
   text-transform: capitalize;
   width: 100%;
-  color: #25e9d5;
+}
+
+.links a:hover {
+  color: gold;
 }
 
 .links a {
@@ -396,11 +365,12 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: white;
+  color: black;
+  text-transform: uppercase;
 }
 
 .icons {
-  color: white;
+  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

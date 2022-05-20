@@ -33,9 +33,9 @@ a {
   text-decoration: none;
   display: flex;
 }
-a:active {
-  color: gold;
-}
+// a:active {
+//   color: gold;
+// }
 a:hover {
   color: gold;
 }
@@ -82,43 +82,43 @@ li a {
   justify-self: center;
   height: 500px;
 }
-.greet-div {
-  position: relative;
-}
-.greet {
-  // display: flex;
-  color: navy;
-  background-color: white;
-  font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-  width: 300px;
-  height: 212px;
-  position: absolute;
-  right: 46.7rem;
-  top: 0.5rem;
-  padding: 10px;
-  z-index: 1;
-}
-.greet-a {
-  // margin-top: 20px;
-  // padding: 20px;
-  // font-size: .7rem;
-  // background-color: navy;
-  //     color: white;
-  position: absolute;
-  top: 13.7rem;
-  right: 57rem;
-  z-index: 2;
-  width: 133px;
-  padding: 10px;
-  background-color: navy;
-  text-align: center;
-}
-.greet-a a {
-  color: white;
-  background-color: navy;
-}
+// .greet-div {
+//   position: relative;
+// }
+// .greet {
+//   // display: flex;
+//   color: navy;
+//   background-color: white;
+//   font-weight: 700;
+//   font-size: 1.5rem;
+//   line-height: 2.5rem;
+//   width: 300px;
+//   height: 212px;
+//   position: absolute;
+//   right: 46.7rem;
+//   top: 0.5rem;
+//   padding: 10px;
+//   z-index: 1;
+// }
+// .greet-a {
+//   // margin-top: 20px;
+//   // padding: 20px;
+//   // font-size: .7rem;
+//   // background-color: navy;
+//   //     color: white;
+//   position: absolute;
+//   top: 13.7rem;
+//   right: 57rem;
+//   z-index: 2;
+//   width: 133px;
+//   padding: 10px;
+//   background-color: navy;
+//   text-align: center;
+// }
+// .greet-a a {
+//   color: white;
+//   background-color: navy;
+// }
 // SECTION 2 STYLE
 
 .sect {
@@ -180,13 +180,6 @@ figure {
   height: 50px;
   padding-bottom: 50px;
 }
-// figure img {
-//   width: 40%;
-//   height: 435px;
-//   padding-left: 20px;
-//   align-items: center;
-//   justify-content: center;
-// }
 
 // SECTION 3 STYLE
 .sect-33 {
@@ -221,7 +214,7 @@ figure {
   display: flex;
   // border: 1px solid navy;
   height: 55px;
-  width: 200px;
+  width: 20%;
   align-items: center;
   justify-content: center;
   // text-align: center;
@@ -233,7 +226,14 @@ figure {
   color: rgb(37, 233, 213);
   background-color: #dffadf;
   border-radius: 5%;
+  text-transform: uppercase;
 }
+.contact a {
+  width: 100%;
+}
+// .contact a:hover {
+//   color: gold;
+// }
 // FOOTER STYLE
 footer {
   display: flex;
@@ -247,7 +247,7 @@ footer {
 .footer-nav {
   display: flex;
   height: 80px;
-  width: 100%;
+  width: 75%;
   align-items: center;
   justify-content: space-between;
 }
@@ -255,7 +255,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 60%;
   height: 50px;
 }
 .links {
@@ -265,17 +265,20 @@ footer {
   gap: 20px;
   text-transform: capitalize;
   width: 100%;
-  color: rgb(37, 233, 213);
+  // color: rgb(37, 233, 213);
 }
-
+.links a:hover {
+  color: gold;
+}
 .links a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
+  text-transform: uppercase;
 }
 .icons {
-  color: white;
+  color: black;
   display: flex;
   font-size: 1rem;
   gap: 30px;
@@ -290,20 +293,9 @@ i {
   width: 100%;
 }
 
-// .icons{
-//   display: flex;
-//   align-items: center;
-//   justify-content: flex-end;
-
-// }
-
 // Project Style
 // SECTION 2 STYLING
-// .port-sect {
-//   background-color: white;
-//   // display: flex;
-//   // flex-direction: column;
-// }
+
 .sect-port {
   width: 100%;
   display: flex;
@@ -412,3 +404,5 @@ form {
 #request {
   height: 100px;
 }
+
+// RESPONSIVE DESIGN
