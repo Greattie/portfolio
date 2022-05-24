@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #cbf8cb;
+  background-color: #181d27;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -24,7 +24,7 @@ header {
   width: 100%;
   height: 70px;
   padding: 15px;
-  background-color: #dffadf;
+  background-color: #484c55;
 }
 
 nav {
@@ -56,10 +56,19 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: #d3d0cb;
+}
+
+nav ul li a {
+  color: #d3d0cb;
+}
+
+button {
+  cursor: pointer;
 }
 
 a:hover {
-  color: gold;
+  color: #e2c391;
 }
 
 ul {
@@ -99,15 +108,6 @@ li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.sect-1 h1 {
-  color: blue;
-  padding: 10px;
-}
-
-.sect-1 p {
-  padding: 10px;
 }
 
 .intro {
@@ -187,7 +187,7 @@ figure {
 
 .about h1 {
   font-size: 1.5rem;
-  border-top: 3px solid #dffadf;
+  border-top: 3px solid #484c55;
   padding: 30px 0px;
 }
 
@@ -205,16 +205,16 @@ figure {
 }
 
 .port button {
-  border: 1px solid #25e9d5;
-  color: #25e9d5;
+  border: 1px solid #484c55;
+  color: #484c55;
   width: 100%;
   height: 40px;
-  background-color: #dffadf;
-  border-radius: 5%;
+  background-color: #627c85;
+  border-radius: 5px;
 }
 
 .port-line {
-  border-bottom: 3px solid #dffadf;
+  border-bottom: 3px solid #484c55;
   height: 50px;
   padding-bottom: 50px;
 }
@@ -261,7 +261,7 @@ figure {
           justify-content: center;
   height: 4px;
   width: 50%;
-  background-color: #dffadf;
+  background-color: #484c55;
 }
 
 .contact {
@@ -281,10 +281,10 @@ figure {
 .contact button {
   width: 100%;
   height: 50px;
-  border: 1px solid #25e9d5;
-  color: #25e9d5;
-  background-color: #dffadf;
-  border-radius: 5%;
+  border: 1px solid #484c55;
+  color: #484c55;
+  background-color: #627c85;
+  border-radius: 5px;
   text-transform: uppercase;
 }
 
@@ -300,12 +300,12 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100px;
+  height: 70px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   padding: 15px;
-  background-color: #dffadf;
+  background-color: #484c55;
 }
 
 .footer-nav {
@@ -351,8 +351,9 @@ footer {
   width: 100%;
 }
 
-.links a:hover {
-  color: gold;
+.links a:hover,
+.icons a:hover {
+  color: #e2c391;
 }
 
 .links a {
@@ -365,21 +366,17 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: black;
+  color: #d3d0cb;
   text-transform: uppercase;
 }
 
 .icons {
-  color: black;
+  color: #d3d0cb;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 1rem;
+  font-size: 1.2rem;
   gap: 30px;
-}
-
-i {
-  color: 2rem;
 }
 
 .footer-img {
@@ -419,7 +416,7 @@ i {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-bottom: 3px solid #dffadf;
+  border-bottom: 3px solid #484c55;
 }
 
 .sect-art {
@@ -464,7 +461,7 @@ i {
   width: 30%;
   height: 100%;
   padding: 10px;
-  border-right: 3px solid #dffadf;
+  border-right: 3px solid #484c55;
 }
 
 .rain p {
@@ -488,12 +485,6 @@ i {
 .art img {
   width: 100%;
   height: 300px;
-}
-
-.arty {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .contact-page {
@@ -556,15 +547,166 @@ form {
   padding: 20px;
 }
 
+input {
+  outline: none;
+}
+
 .form-input {
-  border: 1px solid #cbf8cb;
+  border: 1px solid #484c55;
   width: 100%;
   height: 40px;
-  border-radius: 4%;
-  background-color: #dffadf;
+  border-radius: 5px;
+  background-color: #627c85;
 }
 
 #request {
   height: 100px;
+}
+
+@media screen and (max-width: 640px) {
+  header nav img {
+    width: 50%;
+  }
+  header ul {
+    font-size: 0.8rem;
+  }
+  .sect-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 450px;
+    padding: 10px;
+  }
+  .intro {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  .intro img {
+    width: 75%;
+    height: 250px;
+  }
+  .sect {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    height: 450px;
+    display: flex;
+    width: 100%;
+  }
+  .sect figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 75%;
+    height: 400px;
+    gap: 15px;
+  }
+  .sect figure img {
+    width: 40%;
+  }
+  .sect figure .about {
+    color: white;
+    font-size: 0.8rem;
+    width: 100%;
+    height: 100%;
+  }
+  .sect figure .about h1 {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .sect figure .about p {
+    width: 100%;
+    font-size: 11px;
+    padding: 10px;
+  }
+  .sect figure .about .port {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+  }
+  .sect figure .about .port button {
+    height: 30px;
+    width: 110px;
+    font-size: 10px;
+  }
+  .sect-33 {
+    height: 150px;
+    width: 100%;
+  }
+  .sect-33 .sect-3 {
+    height: 100px;
+    width: 75%;
+  }
+  .sect-33 .sect-3 .proj p {
+    padding: 5px;
+    font-size: 1.1rem;
+  }
+  .sect-33 .sect-3 .contact {
+    width: 30%;
+  }
+  .sect-33 .sect-3 .contact button {
+    height: 30px;
+    width: 110px;
+    font-size: 10px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .footer-nav {
+    width: 75%;
+  }
+  footer .footer-nav .footer-nav2 {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  footer .footer-nav .footer-nav2 .footer-img {
+    width: 20%;
+  }
+  footer .footer-nav .footer-nav2 .footer-img img {
+    width: 40%;
+  }
+  footer .footer-nav .footer-nav2 .links {
+    font-size: 10px;
+  }
+  footer .footer-nav .footer-nav2 .icons a i {
+    font-size: 3px;
+  }
+  .sect2 .sect-art .rain {
+    width: 35%;
+  }
+  .sect2 .sect-art .rain p {
+    font-size: 2rem;
+  }
+  .sect2 .sect-art .sect-22 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0;
+  }
+  .sect2 .sect-art .sect-22 .art {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+  }
+  .sect2 .sect-art .sect-22 .art img {
+    width: 50%;
+    height: 90px;
+  }
+  .contact-page .contact-form form {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
