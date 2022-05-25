@@ -639,201 +639,6 @@ textarea {
   text-transform: capitalize;
 }
 
-@media screen and (max-width: 640px) {
-  header nav img {
-    width: 50%;
-  }
-  header nav ul li {
-    font-size: 10px;
-  }
-  .sect-1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    height: 450px;
-    padding: 10px;
-  }
-  .intro {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-  }
-  .intro img {
-    width: 75%;
-    height: 250px;
-  }
-  .sect {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    height: 400px;
-    padding: 10px;
-  }
-  .sect .sect-2 {
-    height: 450px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-  }
-  .sect .sect-2 figure {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 75%;
-    height: 400px;
-    gap: 15px;
-  }
-  .sect .sect-2 figure img {
-    width: 40%;
-    height: auto;
-  }
-  .sect .sect-2 figure .about {
-    color: white;
-    font-size: 0.8rem;
-    width: 100%;
-    height: 100%;
-  }
-  .sect .sect-2 figure .about h1 {
-    font-size: 16px;
-    padding: 10px;
-  }
-  .sect .sect-2 figure .about p {
-    width: 100%;
-    font-size: 11px;
-    padding: 10px;
-  }
-  .sect .sect-2 figure .about .port {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 10px;
-    width: 100%;
-    height: 40px;
-  }
-  .sect .sect-2 figure .about .port button {
-    height: 30px;
-    width: 110px;
-    font-size: 10px;
-  }
-  .sect-33 {
-    height: 150px;
-    width: 100%;
-  }
-  .sect-33 .sect-3 {
-    height: 100px;
-    width: 75%;
-  }
-  .sect-33 .sect-3 .proj p {
-    padding: 5px;
-    font-size: 12px;
-  }
-  .sect-33 .sect-3 .contact {
-    width: 30%;
-  }
-  .sect-33 .sect-3 .contact button {
-    height: 30px;
-    width: 110px;
-    font-size: 10px;
-  }
-  footer {
-    width: 100%;
-  }
-  footer .footer-nav {
-    width: 75%;
-  }
-  footer .footer-nav .footer-nav2 {
-    font-size: 0.8rem;
-    width: 100%;
-  }
-  footer .footer-nav .footer-nav2 .footer-img {
-    width: 20%;
-  }
-  footer .footer-nav .footer-nav2 .footer-img img {
-    width: 40%;
-  }
-  footer .footer-nav .footer-nav2 .links {
-    font-size: 10px;
-  }
-  footer .footer-nav .footer-nav2 .icons a i {
-    font-size: 2px;
-  }
-  .sect2 {
-    height: 400px;
-    width: 100%;
-  }
-  .sect2 .sect-art {
-    width: 100%;
-    height: 300px;
-  }
-  .sect2 .sect-art .rain {
-    width: 30%;
-  }
-  .sect2 .sect-art .rain p {
-    font-size: 2.5rem;
-  }
-  .sect2 .sect-art .sect-22 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 100%;
-    width: 70%;
-  }
-  .sect2 .sect-art .sect-22 .art {
-    width: 100%;
-    height: 120px;
-    gap: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 130px;
-  }
-  .sect2 .sect-art .sect-22 .art img {
-    height: 70px;
-    width: 100%;
-  }
-  .sect2 .sect-art .sect-22 .arty img {
-    width: 120px;
-    height: 90px;
-  }
-  .contact-page {
-    height: 600px;
-  }
-  .contact-page .contact-form form {
-    width: 100%;
-  }
-  .locate {
-    height: 150px;
-  }
-  .locate .locate-div {
-    width: 80%;
-  }
-  .locate .locate-div .locate-div1 {
-    width: 20%;
-    height: 70px;
-  }
-  .locate .locate-div .locate-div1 h1,
-  .locate .locate-div .locate-div1 p {
-    font-size: 12px;
-  }
-  .locate .locate-div .line {
-    width: 50%;
-  }
-  .locate .locate-div .locate-div2 {
-    height: 70px;
-    width: 30%;
-  }
-  .locate .locate-div .locate-div2 button {
-    width: 100%;
-    height: 40px;
-    font-size: 11px;
-    letter-spacing: 0;
-    padding: 10px;
-  }
-}
-
 @media screen and (max-width: 375px) {
   a:hover {
     color: gold;
@@ -1039,6 +844,201 @@ textarea {
   .locate .locate-div .locate-div2 {
     height: 70px;
     width: 50%;
+  }
+  .locate .locate-div .locate-div2 button {
+    width: 100%;
+    height: 40px;
+    font-size: 11px;
+    letter-spacing: 0;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header nav img {
+    width: 50%;
+  }
+  header nav ul li {
+    font-size: 10px;
+  }
+  .sect-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 450px;
+    padding: 10px;
+  }
+  .intro {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  .intro img {
+    width: 75%;
+    height: 250px;
+  }
+  .sect {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+  }
+  .sect .sect-2 {
+    height: 450px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .sect .sect-2 figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 75%;
+    height: 400px;
+    gap: 15px;
+  }
+  .sect .sect-2 figure img {
+    width: 40%;
+    height: auto;
+  }
+  .sect .sect-2 figure .about {
+    color: white;
+    font-size: 0.8rem;
+    width: 100%;
+    height: 100%;
+  }
+  .sect .sect-2 figure .about h1 {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .sect .sect-2 figure .about p {
+    width: 100%;
+    font-size: 11px;
+    padding: 10px;
+  }
+  .sect .sect-2 figure .about .port {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+  }
+  .sect .sect-2 figure .about .port button {
+    height: 30px;
+    width: 110px;
+    font-size: 10px;
+  }
+  .sect-33 {
+    height: 150px;
+    width: 100%;
+  }
+  .sect-33 .sect-3 {
+    height: 100px;
+    width: 75%;
+  }
+  .sect-33 .sect-3 .proj p {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .sect-33 .sect-3 .contact {
+    width: 30%;
+  }
+  .sect-33 .sect-3 .contact button {
+    height: 30px;
+    width: 110px;
+    font-size: 10px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .footer-nav {
+    width: 75%;
+  }
+  footer .footer-nav .footer-nav2 {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  footer .footer-nav .footer-nav2 .footer-img {
+    width: 20%;
+  }
+  footer .footer-nav .footer-nav2 .footer-img img {
+    width: 40%;
+  }
+  footer .footer-nav .footer-nav2 .links {
+    font-size: 10px;
+  }
+  footer .footer-nav .footer-nav2 .icons a i {
+    font-size: 2px;
+  }
+  .sect2 {
+    height: 400px;
+    width: 100%;
+  }
+  .sect2 .sect-art {
+    width: 100%;
+    height: 300px;
+  }
+  .sect2 .sect-art .rain {
+    width: 30%;
+  }
+  .sect2 .sect-art .rain p {
+    font-size: 2.5rem;
+  }
+  .sect2 .sect-art .sect-22 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 70%;
+  }
+  .sect2 .sect-art .sect-22 .art {
+    width: 100%;
+    height: 120px;
+    gap: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 130px;
+  }
+  .sect2 .sect-art .sect-22 .art img {
+    height: 70px;
+    width: 100%;
+  }
+  .sect2 .sect-art .sect-22 .arty img {
+    width: 120px;
+    height: 90px;
+  }
+  .contact-page {
+    height: 600px;
+  }
+  .contact-page .contact-form form {
+    width: 100%;
+  }
+  .locate {
+    height: 150px;
+  }
+  .locate .locate-div {
+    width: 80%;
+  }
+  .locate .locate-div .locate-div1 {
+    width: 20%;
+    height: 70px;
+  }
+  .locate .locate-div .locate-div1 h1,
+  .locate .locate-div .locate-div1 p {
+    font-size: 12px;
+  }
+  .locate .locate-div .line {
+    width: 50%;
+  }
+  .locate .locate-div .locate-div2 {
+    height: 70px;
+    width: 30%;
   }
   .locate .locate-div .locate-div2 button {
     width: 100%;
