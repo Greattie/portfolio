@@ -9,6 +9,7 @@
 body {
   background-color: #181d27;
   font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 header {
@@ -489,6 +490,7 @@ footer {
 
 .contact-page {
   width: 100%;
+  height: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -499,10 +501,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 20px;
+  color: white;
 }
 
 .info {
@@ -517,15 +516,13 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   padding: 20px;
   gap: 20px;
 }
 
 .contact-form {
   width: 75%;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -547,7 +544,18 @@ form {
   padding: 20px;
 }
 
-input {
+form button {
+  height: 40px;
+  border-radius: 5px;
+  width: 150px;
+  outline: none;
+  border: 1px solid #484c55;
+  color: white;
+  background-color: #627c85;
+  font-size: 14px;
+}
+
+textarea {
   outline: none;
 }
 
@@ -561,6 +569,74 @@ input {
 
 #request {
   height: 100px;
+}
+
+.locate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.locate .locate-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.locate .locate-div .locate-div1 {
+  color: white;
+  width: 25%;
+  height: 80px;
+}
+
+.locate .locate-div .locate-div1 h1,
+.locate .locate-div .locate-div1 p {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.locate .locate-div .locate-div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  height: 100px;
+}
+
+.locate .locate-div .locate-div2 button {
+  height: 50px;
+  border-radius: 5px;
+  width: 200px;
+  letter-spacing: 2px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #484c55;
+  color: white;
+  background-color: #627c85;
+  font-size: 12px;
+  text-transform: capitalize;
 }
 
 @media screen and (max-width: 640px) {
@@ -594,11 +670,15 @@ input {
     width: 100%;
     height: 400px;
     padding: 10px;
+  }
+  .sect .sect-2 {
     height: 450px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
   }
-  .sect figure {
+  .sect .sect-2 figure {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -606,25 +686,26 @@ input {
     height: 400px;
     gap: 15px;
   }
-  .sect figure img {
+  .sect .sect-2 figure img {
     width: 40%;
+    height: auto;
   }
-  .sect figure .about {
+  .sect .sect-2 figure .about {
     color: white;
     font-size: 0.8rem;
     width: 100%;
     height: 100%;
   }
-  .sect figure .about h1 {
+  .sect .sect-2 figure .about h1 {
     font-size: 16px;
     padding: 10px;
   }
-  .sect figure .about p {
+  .sect .sect-2 figure .about p {
     width: 100%;
     font-size: 11px;
     padding: 10px;
   }
-  .sect figure .about .port {
+  .sect .sect-2 figure .about .port {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -632,7 +713,7 @@ input {
     width: 100%;
     height: 40px;
   }
-  .sect figure .about .port button {
+  .sect .sect-2 figure .about .port button {
     height: 30px;
     width: 110px;
     font-size: 10px;
@@ -677,7 +758,7 @@ input {
     font-size: 10px;
   }
   footer .footer-nav .footer-nav2 .icons a i {
-    font-size: 3px;
+    font-size: 2px;
   }
   .sect2 .sect-art .rain {
     width: 35%;
@@ -704,6 +785,10 @@ input {
   .sect2 .sect-art .sect-22 .art img {
     width: 50%;
     height: 90px;
+  }
+  .contact-page {
+    border: 1px solid white;
+    height: 1000px;
   }
   .contact-page .contact-form form {
     width: 100%;
