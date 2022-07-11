@@ -1,1 +1,4 @@
-A clone of a portfolio website conataining two webpages and made using only HTML and CSS (SCSS)
+Responsive Personal Portfolio Website using HTML & SCSS 
+
+Link to live site: https://greattie.github.io/portfolio/
+
